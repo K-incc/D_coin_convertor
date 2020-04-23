@@ -115,7 +115,7 @@ const Converter=()=>{
 							{data.result} {data.convertto}
 						</Typography>
 						<Typography variant="subtitle1">
-							Ass of {data.date}
+							As of {data.date}
 						</Typography>
 	        
 	        			<div className={classes.roott}>
