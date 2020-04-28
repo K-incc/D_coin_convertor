@@ -11,6 +11,7 @@ import Grid from '@material-ui/core/Grid';
 import {SwapVert} from '@material-ui/icons';
 import axios from 'axios'
 
+
 const Converter=()=>{
 	const [data,setData]=useState({
 		currencies:['USD','AUD','SGD','EUR','PHP'],
@@ -20,9 +21,9 @@ const Converter=()=>{
 		result:'',
 		date:''
 	})
-
+ 
 	const useStyles = makeStyles((theme) => ({
-  		formControl: {
+		formControl: {
     		margin: theme.spacing(1),
     		minWidth: 120,
   		},

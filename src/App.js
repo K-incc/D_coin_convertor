@@ -4,7 +4,7 @@ import Converter from './Components/Converter'
 function App(){
 	return(
 		
-			<Converter/>
+			<Converter />
 		
 		)
 		}
